@@ -13,7 +13,7 @@ $(document).ready(function() {
   $(function() {
     $('body').vegas({
         slides: [
-            { src: 'http://ogfg2t32i.bkt.clouddn.com/images/slide-1.jpg' }
+            { src: '//cdn.nijiasu.com/images/slide-1.jpg' }
         ],
         timer: false,
         transition: [ 'zoomOut', ]
