@@ -259,6 +259,10 @@ footer {
   border-color: transparent;
 }
 
+.specialbtn {
+	margin-top: 10px;
+}
+
 #home .btn-success {
     background: #ffffff;
     color: #242424;
