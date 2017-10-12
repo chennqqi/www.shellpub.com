@@ -1,7 +1,7 @@
 #河马 webshell扫描器 for Linux 使用手册
 
-[首页](http://www.webshell.pub)                 
-[在线查杀](http://n.webshell.pub)
+[首页](http://www.shellpub.com)                 
+[在线查杀](http://n.shellpub.com)
 
 ![logo](images/1.png)
 
@@ -12,7 +12,7 @@
 
 1. 下载
 
-	访问<http://www.webshell.pub>官方网站
+	访问<http://www.shellpub.com>官方网站
 
 	点击【立即使用】进入下载中心
 
