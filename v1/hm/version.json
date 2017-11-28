@@ -1,21 +1,21 @@
 {
-    "version": "1.2.0",
+    "version": "1.3.1",
     "name": "hm",
     "description": "hm -a magic webshell scanner",
     "linux-386": {
-        "url": "http://www.webshell.pub/download/hm/1.2.0/hm-linux-386.tgz",
-        "md5": "3e044376bf56a3345b097ecbc6159311",
-        "sha1": "5da3c67a13d958c9668d753135cea64ecc156ed6"
+        "url" : "http://down.shellpub.com/hm/1.3.1/hm-linux-386.tgz",
+        "md5":"125d8b0b48f3c0589f4e1e4349922083",
+        "sha1":"7e002e8017c5f19d1aed414746822c9b85449785",    	
     },
     "windows-386": {
-        "url": "http://down.shellpub.com/hm-ui/1.2.0/HemaSetup1.2.0.zip",
-        "md5": "BF7AB0B92923CED93D938CDD6DB4DA4F",
-        "sha1": "9CDFAEC40020F181D47936F9F35D8BDDC239AAE5"
+	"url" : "http://down.shellpub.com/hm-ui/1.3.1/HmSetup1.3.1.zip",
+	"md5" : "f205fc0316dba4c1f495ad6f35d310f5",
+	"sha1" : "454d2f7bae1160ee2149421aeee2041309bd85b2",
     },
     "linux-amd64": {
-        "url": "http://www.webshell.pub/download/hm/1.2.0/hm-linux-amd64.tgz",
-        "md5": "35826fc237841b1938c917700528eed7",
-        "sha1": "b8273e84a2a5d06906698e3a31aca8e89ad3c63a"
+        "url" : "http://down.shellpub.com/hm/1.3.1/hm-linux-amd64.tgz",
+        "md5":"ea218f6f043e00d35b849da237ef8cbc",
+        "sha1":"40c8c7eb975786e6b6aea178dd3ae6eb8840cf12",
     },
-    "releasenote": "1.2.0"
+    "releasenote": "1.3.1"
 }
