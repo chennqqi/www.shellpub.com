@@ -27,4 +27,4 @@
 如果您在使用过程中遇到了困难，或者有好的建议反馈给我们。可以通过以下方式联系我们：
 	
    QQ:1494922137  
-   <webshell.pub@gmail.com>
+   <service@shellpub.com>
