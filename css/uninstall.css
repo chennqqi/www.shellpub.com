@@ -1,0 +1,146 @@
+@charset "utf-8";
+/*reset*/
+*,html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul,dl{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}ins{background-color:#ff9;color:#000;text-decoration:none;}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}del{text-decoration:line-through;}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}input,select{vertical-align:middle;}
+
+/*element*/
+html{direction:ltr;}
+body{height:100%;background:#edebec;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,button,select,option,textarea,p,blockquote,th,td,a{
+padding:0;margin:0;font:12px/1.6 Microsoft YaHei,"微软雅黑",Lucida,Verdana,Hiragino Sans GB,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif;word-break:break-all;word-wrap:break-word;color:#333;}
+img{border:0;vertical-align:top;}
+ol,ul,dl{list-style:none;}
+input{border-radius: 3px;}
+textarea{resize:none;}
+.input{border:1px #CCC solid;
+box-shadow: 1px 1px 1px 0px #eaeaea inset;
+}
+.dnone{
+display:nnone;
+}
+.fcgray{
+color:#999;
+}
+
+/*page style*/
+.wrapper{
+width:731px;
+margin:0 auto;
+}
+
+#header {
+ background:url(/images/uninstall/header.png) no-repeat;
+ height:229px;
+ margin-top:20px;
+}
+
+#middle {
+ background:url(/images/uninstall/middle.png) repeat-y;
+ height:auto;
+}
+
+#reason-title {
+ background:url(/images/uninstall/header-title.png) no-repeat;
+ height:47px;
+}
+
+#container{
+ padding:0 88px;
+ color:#444;	
+}
+
+#footer {
+ background:url(/images/uninstall/footer.png) no-repeat;
+ height:31px;
+ padding-bottom:80px;
+}
+
+#container b{
+ color:#ec5408;
+ font-size:14px;
+ display:inline-block;
+}
+
+#container table.option {
+margin-top:10px;
+margin-bottom:15px;
+}
+
+#container table.option tr{
+height:22px;
+}
+
+#container table .col1{
+width:20px;
+}
+
+#container table.option .col2{
+width:235px;
+}
+
+#container table.option .input{
+padding:2px 3px;
+width:200px;
+}
+
+#reason{
+width:557px;
+height:97px;
+display:block;
+border-radius:6px;
+margin-top:10px;
+margin-bottom:15px;
+}
+
+#container table.contact{
+margin-top:10px;
+}
+
+#container table.contact .col1{
+width:40px;
+} 
+
+#container table.contact tr{
+height:30px;
+}
+
+#container table.contact input{
+padding:2px 3px;
+width:245px;
+}
+
+.submit{
+text-align:center;
+padding:15px 0;
+}
+
+#sumit-btn {
+background:url(/images/uninstall/submit.png) no-repeat;
+width:134px;
+height:48px;
+cursor:pointer;
+text-indent:-2000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

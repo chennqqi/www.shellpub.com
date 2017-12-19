@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/uninstall.css?ver=" />
+    <script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js?ver="></script>
+    <script src="js/cnzz.js"></script>
+    <script src="js/baidu.js"></script>
+    <title>河马查杀卸载反馈</title>
+</head>
+<body>
+<div id="header" class="wrapper"></div>
+<div id="middle" class="wrapper">
+    <div id="reason-title" class="wrapper dnone1"></div>
+    <div id="container">
+        <b>产品原因</b>
+        <form action="http://api.shellpub.com/v2/feedback/hm" method="post">
+            <table width="100%" border="1" class="option">
+                <tr>
+                    <td class="col1"><input name="reasonid[]" type="checkbox" value="1" /></td>
+                    <td class="col2">功能单一</td>
+                    <td><input name="summary1" type="text" value="您希望软件加入哪些功能" class="input fcgray" id="summary" /></td>
+                </tr>
+                <tr>
+                    <td class="col1"><input name="reasonid[]" type="checkbox" value="2" /></td>
+                    <td class="col2">检测结果误报多</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td class="col1"><input name="reasonid[]" type="checkbox" value="3" /></td>
+                    <td class="col2">什么也没检测到</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+            <b>使用原因</b>
+            <table width="100%" border="1" class="option">
+                <tr>
+                    <td class="col1"><input name="reasonid[]" type="checkbox" value="4" /></td>
+                    <td class="col2">体验不友好（操作不便捷、界面不美观等）</td>
+                    <td><input name="summary2" type="text" value="您觉的哪些体验不够友好" class="input fcgray" id="summary" /></td>
+                </tr>
+                <tr>
+                    <td class="col1"><input name="reasonid[]" type="checkbox" value="5" /></td>
+                    <td class="col2">占用系统资源多</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="col1"><input name="reasonid[]" type="checkbox" value="6" /></td>
+                    <td class="col2">程序出现无响应崩溃的情况</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="col1"><input name="reasonid[]" type="checkbox" value="7" /></td>
+                    <td class="col2">不能用了，我想重装</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+            <b>其他原因</b><span>（请在下面说明）</span>
+            <textarea name="reason" class="input" id="reason"></textarea>
+            <b>联系方式</b>
+            <table width="100%" border="1" class="contact">
+                <tr>
+                    <td class="col1">邮箱：</td>
+                    <td><input name="email" type="email" value="" class="input" /></td>
+                </tr>
+                <tr>
+                    <td class="col1">QQ：</td>
+                    <td><input name="oicq" type="phone" value="" class="input" /></td>
+                    <td><input name="mid" id="mid" type="hidden" value="" class="input" /></td>
+                </tr>
+            </table>
+            <div class="submit">
+                <input type="submit" name="sumit-btn" id="sumit-btn" value="提交" />
+            </div>
+        </form>
+    </div><!--//#container-->
+</div>
+<script type="text/javascript">
+    $(function(){
+        $('.fcgray').one("click", function(){
+            $(this).val('').removeClass('fcgray');
+        });
+    });
+
+    function getQueryString(name)    {
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  unescape(r[2]); return null;
+    }
+    $(document).ready(function(){
+        var mid=getQueryString("mid");
+        if(mid !=null && mid.toString().length>1)  {
+            $("#mid").val(mid);
+//            console.log(mid);
+        }
+    });
+</script>
+<div id="footer" class="wrapper"></div>
+
+</body>
+</html>
