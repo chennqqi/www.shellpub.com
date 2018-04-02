@@ -1,0 +1,78 @@
+<html>
+	<head>
+			<script src="http://lib.baomitu.com/jquery/1.11.1/jquery.min.js"></script>
+			<link href="http://lib.baomitu.com/twitter-bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+			<script src="http://lib.baomitu.com/twitter-bootstrap/3.3.0/js/bootstrap.min.js"></script>
+				<!------ Include the above in your HEAD tag ---------->
+				<style type="text/css">
+					.form-inline .form-group{
+					    margin-left: 0;
+					    margin-right: 0;
+					}
+				</style>
+	</head>
+	<body>
+			<div class="container">
+				<form class="form-horizontal" action="https://api.shellpub.com/v2/apply/hsvs" method="POST">
+			<fieldset>
+			
+			<!-- Form Name -->
+			<legend>申请使用HSVS</legend>
+
+
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="m_mail">邮箱</label>  
+			  <div class="col-md-6">
+			  <input type="email" id="m_mail" name="m_mail" placeholder="邮箱" class="form-control input-md" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required=true>
+			  <span class="help-block">我会将程序发送到您的邮箱，建议填写企业邮箱方便接收 </span>  
+			  </div>
+			</div>
+					
+			<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="m_name">您的称呼</label>  
+			  <div class="col-md-6">
+			  <input id="m_name" name="m_name" type="text" placeholder="姓名" class="form-control input-md" required=true>
+			  <span class="help-block">您的尊称 </span>  
+			  </div>
+			</div>
+			
+						<!-- Text input-->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="m_corp">您所在的公司</label>  
+			  <div class="col-md-6">
+			  <input id="m_corp" name="m_corp" type="text" placeholder="企业名称" class="form-control input-md" required=true>
+			  <span class="help-block">请正确填写企业名称，方便通过申请 </span>  
+			  </div>
+			</div>
+			
+			
+			<!-- Select Basic -->
+			<div class="form-group">
+			  <label class="col-md-4 control-label" for="gender">您申请的版本</label>
+			  <div class="col-md-6">
+			    <select id="installtype" name="installtype" class="form-control">
+			      <option value="standalone">单机版</option>
+			      <option value="cluster_intra">集群-内网版(预约)</option>
+			      <option value="cluster_pub">集群-公网版(预约)</option>
+			    </select>
+			  </div>
+			</div>
+			
+			  
+			  <!-- Button (Double) -->
+			<div class="form-group">
+			      <label class="col-md-4 control-label"></label>
+				  <div class="col-md-8">
+			    <input type="submit" class="btn btn-success btn-lg " id="submit" value="提交申请">			      
+			   </div>   
+			  </div>
+			  
+			</fieldset>
+			</form>
+			
+			</div>
+	</body>
+</html>
+
