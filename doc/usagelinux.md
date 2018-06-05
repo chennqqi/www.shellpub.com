@@ -26,11 +26,11 @@
 	可以使用wget进行下载，在按钮上【鼠标右键】->【复制链接地址】
 	
 	下载64位版本
-	wget http://www.webshell.pub/download/hm/1.2.0/hm-linux-amd64.tgz
+	wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.4.1
 
 
 	下载32位版本
-	wget http://www.webshell.pub/download/hm/1.2.0/hm-linux-386.tgz
+	wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.4.1
 
 	以上路径会随着版本更新而变化，请从下载中心获取最新版本
 
@@ -41,7 +41,7 @@
 	linux压缩包格式是tgz格式的，使用tar gz解压缩
 	以64位程序为例
 
-	tar xvf hm-linux-amd64.tgz
+	tar xvf hm-linux.tgz
 		
 	**注意:**  
 	**不要将本软件放置到web目录下**  
