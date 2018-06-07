@@ -1,5 +1,5 @@
 {
-    "version": "1.4.2",
+    "version": "1.4.0",
     "name": "hm",
     "description": "hm -a magic webshell scanner",
     "linux-386": {
@@ -17,5 +17,5 @@
         "md5":"94bc8a883b72977e560e670e7bd9d607",
         "sha1":"2b4df1c721aea0acff0b4f8ee884c10f3d16daa3"
     },
-    "releasenote": "1.4.2"
+    "releasenote": "1.4.0"
 }
