@@ -26,11 +26,11 @@
 	可以使用wget进行下载，在按钮上【鼠标右键】->【复制链接地址】
 	
 	下载64位版本
-	wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.4.1
+	wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.6.0
 
 
 	下载32位版本
-	wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.4.1
+	wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-386.tgz?version=1.6.0
 
 	以上路径会随着版本更新而变化，请从下载中心获取最新版本
 
@@ -88,7 +88,7 @@
 
 	5.1 无法连接到云服务
 
-		本产品采用本地+云端双引擎，需要联网之后才能准确查杀；请检查您的网络是否能访问云服务，可以在浏览器中输入http://api.webshell.pub/进行测试
+		本产品采用本地+云端双引擎，需要联网之后才能准确查杀；请检查您的网络是否能访问云服务，可以在命令行中执行curl https://api.shellpub.com/v2/version, 如果返回正常结果说明您的系统时间未同步，请先同步系统时间；如果返回报错，可能是您系统PKI证书老旧，请升级ca
 
 	5.2 bash: hm: command not found
 
