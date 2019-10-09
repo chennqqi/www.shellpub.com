@@ -6,7 +6,7 @@
 ![logo](images/1.png)
 
 本教程适用于linux docker服务器环境的安装使用;[windows版本教程查看这里](http://www.webshell.pub/doc/hm_win_usage.html)
-[linux版本教程查看这里](http://www.webshell.pub/doc/hm_linux_usage.html)
+[linux版本教程查看这里](http://www.shellpub.com/doc/hm_linux_usage.html)
 
 ## 初衷
 

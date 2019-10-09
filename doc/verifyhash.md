@@ -1,7 +1,7 @@
 #河马 webshell扫描器 哈希验证教程
 
-[首页](http://www.webshell.pub)                 
-[在线查杀](http://n.webshell.pub)
+[首页](http://www.shellpub.com)                 
+[在线查杀](http://n.shellpub.com)
 
 ![logo](images/1.png)
 
@@ -11,7 +11,7 @@
 参考[【百度经验-如何进行MD5校验】](http://jingyan.baidu.com/album/25648fc1dc77c39191fd00c6.html)
 
 
-获取[最新版本哈希](http://www.webshell.pub/v1/hm/version.json)
+获取[最新版本哈希](http://www.shellpub.com/v1/hm/version.json)
 
 
 ##为什么要验证哈希
