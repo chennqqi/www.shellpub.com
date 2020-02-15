@@ -12,7 +12,7 @@
 
 1. 下载
 
-	访问<http://www.shellpub.com>官方网站
+	访问<https://www.shellpub.com>官方网站
 
 	点击【立即使用】进入下载中心
 
@@ -26,11 +26,11 @@
 	可以使用wget进行下载，在按钮上【鼠标右键】->【复制链接地址】
 	
 	下载64位版本
-	wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.6.0
+	wget -O /opt/hm-linux.tgz http://dl.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.7.0
 
 
 	下载32位版本
-	wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-386.tgz?version=1.6.0
+	wget -O /opt/hm-linux.tgz http://dl.shellpub.com/hm/latest/hm-linux-386.tgz?version=1.7.0
 
 	以上路径会随着版本更新而变化，请从下载中心获取最新版本
 
@@ -41,26 +41,13 @@
 	linux压缩包格式是tgz格式的，使用tar gz解压缩
 	以64位程序为例
 
+	cd /opt/
 	tar xvf hm-linux.tgz
 		
 	**注意:**  
 	**不要将本软件放置到web目录下**  
 	**不要在web目录下运行软件**
 	
-3. 配置环境变量（非必须）
-	
-	有两种可选的方法
-	3.1 创建软连接
-	sudo ln -s hm程序全路径 /usr/bin/hm
-	
-
-	3.2 设置环境变量
-	将河马webshell查杀工具路径添加到`PATH`环境变量
-
-	配置环境变量可以让您在命令行下直接输入程序名来使用；如果没有配置环境变量则需要输入程序的完整路径或者在程序所在目录下使用`./`+命令
-
-	参考:[在Linux里设置用户环境变量的方法](http://blog.csdn.net/yumushui/article/details/39290749)
-
 
 4. 使用
 
@@ -68,31 +55,30 @@
 	
 	4.1 查看帮助
 		
-		hm -h
+		cd /opt/
+		./hm -h
 
 	4.2 查看版本
 
-		hm version
+		./hm version
 
 	4.3 扫描后门
 
-		hm scan 你的web目录
+		./hm scan 你的web目录
 
 		扫描完成之后结果会保存为result.csv文件，使用记事本或者excel打开查看
 
 	4.4 升级
 
-		hm update	
+		./hm update	
+
+如果你已经将hm添加到PATH环境变量中，则可以不用./hm而直接是用hm
 
 5. FAQ
 
 	5.1 无法连接到云服务
 
 		本产品采用本地+云端双引擎，需要联网之后才能准确查杀；请检查您的网络是否能访问云服务，可以在命令行中执行curl https://api.shellpub.com/v2/version, 如果返回正常结果说明您的系统时间未同步，请先同步系统时间；如果返回报错，可能是您系统PKI证书老旧，请升级ca
-
-	5.2 bash: hm: command not found
-
-		您为将`hm`加入到系统环境变量中，请参考步骤【3. 配置环境变量】一节，也可以输入hm的全路径进行使用
 
 ##Tips
 

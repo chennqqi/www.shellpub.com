@@ -289,6 +289,183 @@ img {
   max-width: 100%
 }
 </style>
+<style type="text/css">
+.highlight  { background: #ffffff; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { font-weight: bold } /* Keyword */
+.highlight .o { font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { font-weight: bold } /* Keyword.Constant */
+.highlight .kd { font-weight: bold } /* Keyword.Declaration */
+.highlight .kp { font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d14 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d14 } /* Literal.String.Backtick */
+.highlight .sc { color: #d14 } /* Literal.String.Char */
+.highlight .sd { color: #d14 } /* Literal.String.Doc */
+.highlight .s2 { color: #d14 } /* Literal.String.Double */
+.highlight .se { color: #d14 } /* Literal.String.Escape */
+.highlight .sh { color: #d14 } /* Literal.String.Heredoc */
+.highlight .si { color: #d14 } /* Literal.String.Interpol */
+.highlight .sx { color: #d14 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d14 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+.pl-c {
+    color: #969896;
+}
+
+.pl-c1,.pl-mdh,.pl-mm,.pl-mp,.pl-mr,.pl-s1 .pl-v,.pl-s3,.pl-sc,.pl-sv {
+    color: #0086b3;
+}
+
+.pl-e,.pl-en {
+    color: #795da3;
+}
+
+.pl-s1 .pl-s2,.pl-smi,.pl-smp,.pl-stj,.pl-vo,.pl-vpf {
+    color: #333;
+}
+
+.pl-ent {
+    color: #63a35c;
+}
+
+.pl-k,.pl-s,.pl-st {
+    color: #a71d5d;
+}
+
+.pl-pds,.pl-s1,.pl-s1 .pl-pse .pl-s2,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre,.pl-src,.pl-v {
+    color: #df5000;
+}
+
+.pl-id {
+    color: #b52a1d;
+}
+
+.pl-ii {
+    background-color: #b52a1d;
+    color: #f8f8f8;
+}
+
+.pl-sr .pl-cce {
+    color: #63a35c;
+    font-weight: bold;
+}
+
+.pl-ml {
+    color: #693a17;
+}
+
+.pl-mh,.pl-mh .pl-en,.pl-ms {
+    color: #1d3e81;
+    font-weight: bold;
+}
+
+.pl-mq {
+    color: #008080;
+}
+
+.pl-mi {
+    color: #333;
+    font-style: italic;
+}
+
+.pl-mb {
+    color: #333;
+    font-weight: bold;
+}
+
+.pl-md,.pl-mdhf {
+    background-color: #ffecec;
+    color: #bd2c00;
+}
+
+.pl-mdht,.pl-mi1 {
+    background-color: #eaffea;
+    color: #55a532;
+}
+
+.pl-mdr {
+    color: #795da3;
+    font-weight: bold;
+}
+
+.pl-mo {
+    color: #1d3e81;
+}
+.task-list {
+padding-left:10px;
+margin-bottom:0;
+}
+
+.task-list li {
+    margin-left: 20px;
+}
+
+.task-list-item {
+list-style-type:none;
+padding-left:10px;
+}
+
+.task-list-item label {
+font-weight:400;
+}
+
+.task-list-item.enabled label {
+cursor:pointer;
+}
+
+.task-list-item+.task-list-item {
+margin-top:3px;
+}
+
+.task-list-item-checkbox {
+display:inline-block;
+margin-left:-20px;
+margin-right:3px;
+vertical-align:1px;
+}
+</style>
 </head>
 <body>	
 <h1>河马 webshell扫描器 for Linux 使用手册</h1>
@@ -296,106 +473,66 @@ img {
 <a href="http://n.shellpub.com">在线查杀</a></p>
 <p><img src="images/1.png" alt="logo" /></p>
 <p>本教程适用于linux服务器环境的安装使用;<a href="http://www.shellpub.com/doc/hm_win_usage.html">windows版本教程查看这里</a></p>
-<h2>安装使用</h2>
+<h2 id="-">安装使用</h2>
 <ol>
-<li>
-<p>下载</p>
-<p>访问<a href="http://www.shellpub.com">http://www.shellpub.com</a>官方网站</p>
-<p>点击【立即使用】进入下载中心</p>
-<p><img src="images/download.jpg" alt="下载中心" /></p>
-<p>选择适合您的版本</p>
-<p>linux 64位选择 linux amd64
-linux 32位选择 linux 386</p>
-<p>可以使用wget进行下载，在按钮上【鼠标右键】-&gt;【复制链接地址】</p>
-<p>下载64位版本
-wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.6.0</p>
-<p>下载32位版本
-wget -O hm-linux.tgz http://down.shellpub.com/hm/latest/hm-linux-386.tgz?version=1.6.0</p>
-<p>以上路径会随着版本更新而变化，请从下载中心获取最新版本</p>
-<p>河马webshell查杀推荐您使用XShell作为ssh客户端，XShell有面向个人学校、教育的免费版本</p>
-</li>
-<li>
-<p>解压缩</p>
-<p>linux压缩包格式是tgz格式的，使用tar gz解压缩
-以64位程序为例</p>
-<p>tar xvf hm-linux.tgz</p>
-<p><strong>注意:</strong><br />
-<strong>不要将本软件放置到web目录下</strong><br />
-<strong>不要在web目录下运行软件</strong></p>
-</li>
-<li>
-<p>配置环境变量（非必须）</p>
-<p>有两种可选的方法
-3.1 创建软连接
-sudo ln -s hm程序全路径 /usr/bin/hm</p>
-<p>3.2 设置环境变量
-将河马webshell查杀工具路径添加到<code>PATH</code>环境变量</p>
-<p>配置环境变量可以让您在命令行下直接输入程序名来使用；如果没有配置环境变量则需要输入程序的完整路径或者在程序所在目录下使用<code>./</code>+命令</p>
-<p>参考:<a href="http://blog.csdn.net/yumushui/article/details/39290749" target="_blank">在Linux里设置用户环境变量的方法</a></p>
-</li>
-<li>
-<p>使用</p>
-<p><img src="images/linuxusage.gif" alt="教程" /></p>
-<p>4.1 查看帮助</p>
-<pre><code>hm -h
-</code></pre>
+<li><p>下载</p>
+<p> 访问<a href="https://www.shellpub.com">https://www.shellpub.com</a>官方网站</p>
+<p> 点击【立即使用】进入下载中心</p>
+<p> <img src="images/download.jpg" alt="下载中心"></p>
+<p> 选择适合您的版本</p>
+<p> linux 64位选择 linux amd64<br> linux 32位选择 linux 386</p>
+<p> 可以使用wget进行下载，在按钮上【鼠标右键】-&gt;【复制链接地址】</p>
+<p> 下载64位版本<br> wget -O /opt/hm-linux.tgz <a href="http://dl.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.7.0">http://dl.shellpub.com/hm/latest/hm-linux-amd64.tgz?version=1.7.0</a></p>
+</li></ol>
+<pre><code>下载32位版本
+wget -O /opt/hm-linux.tgz http://dl.shellpub.com/hm/latest/hm-linux-386.tgz?version=1.7.0
 
-<p>4.2 查看版本</p>
-<pre><code>hm version
-</code></pre>
+以上路径会随着版本更新而变化，请从下载中心获取最新版本
 
-<p>4.3 扫描后门</p>
-<pre><code>hm scan 你的web目录
-
-扫描完成之后结果会保存为result.csv文件，使用记事本或者excel打开查看
-</code></pre>
-
-<p>4.4 升级</p>
-<pre><code>hm update   
-</code></pre>
-
-</li>
-<li>
-<p>FAQ</p>
-<p>5.1 无法连接到云服务</p>
-<pre><code>本产品采用本地+云端双引擎，需要联网之后才能准确查杀；请检查您的网络是否能访问云服务，可以在命令行中执行curl https://api.shellpub.com/v2/version, 如果返回正常结果说明您的系统时间未同步，请先同步系统时间；如果返回报错，可能是您系统PKI证书老旧，请升级ca
-</code></pre>
-
-<p>5.2 bash: hm: command not found</p>
-<pre><code>您为将`hm`加入到系统环境变量中，请参考步骤【3. 配置环境变量】一节，也可以输入hm的全路径进行使用
-</code></pre>
-
-</li>
-</ol>
-<h2>Tips</h2>
+河马webshell查杀推荐您使用XShell作为ssh客户端，XShell有面向个人学校、教育的免费版本
+</code></pre><ol>
+<li><p>解压缩</p>
+<p> linux压缩包格式是tgz格式的，使用tar gz解压缩<br> 以64位程序为例</p>
+<p> cd /opt/<br> tar xvf hm-linux.tgz</p>
+<p> <strong>注意:</strong><br> <strong>不要将本软件放置到web目录下</strong><br> <strong>不要在web目录下运行软件</strong></p>
+</li></ol>
 <ol>
-<li>
-<p>为什么不能在web目录下使用本软件</p>
-<p>本软件扫描完成之后会在运行的工作目录下生成扫描结果；如果在web目录下生成结果，则会被黑客下载，黑客就可以通过您服务器上已有后门获取服务器权限。</p>
-</li>
-<li>
-<p>为什么扫描速度很慢</p>
-<p>正常的扫描速度大约是每秒钟200~300个文件如果远慢于这个速度则可能有异常。1.请检查您的网络是否正常，本软件扫描时需要连接到云查杀引擎；2.可能被杀毒软件拦截，请将本软件的路径添加到杀毒软件白名单中</p>
-</li>
-<li>
-<p>如何查看我的系统是32位的还是64位的</p>
-<p>如果您使用的linux系统但不确定是32位的还是64位的可以使用以下命令<code>arch</code>来查看</p>
-<pre><code>x86_64 就是64位系统，请点击下载linux amd64
-x86 就是32位系统，请点击linux 386
-</code></pre>
+<li><p>使用</p>
+<p> <img src="images/linuxusage.gif" alt="教程"></p>
+<p> 4.1 查看帮助</p>
+<pre><code> cd /opt/
+ ./hm -h
+</code></pre><p> 4.2 查看版本</p>
+<pre><code> ./hm version
+</code></pre><p> 4.3 扫描后门</p>
+<pre><code> ./hm scan 你的web目录
 
-<p>如果您的linux系统没有安装arch，可以使用<code>uname -r</code>命令来查看</p>
-</li>
-</ol>
-<h2>联系我们</h2>
+ 扫描完成之后结果会保存为result.csv文件，使用记事本或者excel打开查看
+</code></pre><p> 4.4 升级</p>
+<pre><code> ./hm update    
+</code></pre></li></ol>
+<p>如果你已经将hm添加到PATH环境变量中，则可以不用./hm而直接是用hm</p>
+<ol>
+<li><p>FAQ</p>
+<p> 5.1 无法连接到云服务</p>
+<pre><code> 本产品采用本地+云端双引擎，需要联网之后才能准确查杀；请检查您的网络是否能访问云服务，可以在命令行中执行curl https://api.shellpub.com/v2/version, 如果返回正常结果说明您的系统时间未同步，请先同步系统时间；如果返回报错，可能是您系统PKI证书老旧，请升级ca
+</code></pre></li></ol>
+<h2 id="tips">Tips</h2>
+<ol>
+<li><p>为什么不能在web目录下使用本软件</p>
+<p> 本软件扫描完成之后会在运行的工作目录下生成扫描结果；如果在web目录下生成结果，则会被黑客下载，黑客就可以通过您服务器上已有后门获取服务器权限。</p>
+</li><li><p>为什么扫描速度很慢</p>
+<p> 正常的扫描速度大约是每秒钟200~300个文件如果远慢于这个速度则可能有异常。1.请检查您的网络是否正常，本软件扫描时需要连接到云查杀引擎；2.可能被杀毒软件拦截，请将本软件的路径添加到杀毒软件白名单中</p>
+</li><li><p>如何查看我的系统是32位的还是64位的</p>
+<p> 如果您使用的linux系统但不确定是32位的还是64位的可以使用以下命令<code>arch</code>来查看</p>
+<pre><code> x86_64 就是64位系统，请点击下载linux amd64
+ x86 就是32位系统，请点击linux 386
+</code></pre><p> 如果您的linux系统没有安装arch，可以使用<code>uname -r</code>命令来查看</p>
+</li></ol>
+<h2 id="-">联系我们</h2>
 <p>如果您在使用过程中遇到了困难，或者有好的建议反馈给我们。可以通过以下方式联系我们：</p>
-<p>QQ:1494922137<br />
-   <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#111;&#x3a;&#119;e&#98;s&#104;&#101;&#x6c;&#108;&#46;&#x70;&#x75;&#98;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x77;&#101;&#98;&#x73;&#104;&#x65;&#108;&#108;&#x2e;&#112;&#x75;&#98;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></p>
-<div style="display:none">
-<script src="/js/cnzz.js"></script>
-<script src="/js/baidu.js"></script>
-<script src="/js/baidupush.js"></script>
-</div>
+<p>   QQ:1494922137<br>   <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x73;&#101;&#x72;&#x76;&#105;&#x63;&#x65;&#64;&#115;&#104;&#101;&#x6c;&#x6c;&#x70;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;">&#x73;&#101;&#x72;&#x76;&#105;&#x63;&#x65;&#64;&#115;&#104;&#101;&#x6c;&#x6c;&#x70;&#117;&#98;&#x2e;&#x63;&#111;&#x6d;</a></p>
+
 </body>
 </html>
 <!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
