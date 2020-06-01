@@ -19,7 +19,18 @@ $(document).ready(function() {
         transition: [ 'zoomOut', ]
     });
   });
-
+  
+  /*
+  $(function() {
+		  $.getJSON("https://api.shellpub.com/api/v1/cloud/stat",function(result,status,xhr){
+		      $("#stat_year").setText(result.year);
+		      $("#stat_end").setText(result.end);
+		      $("#stat_total").setText(result.total);
+		      $("#stat_count").setText(result.count);
+		      $("#stat_black").setText(result.black+result.susp);
+		  });
+  });
+	*/
 
    /* Back top
   -----------------------------------------------*/
