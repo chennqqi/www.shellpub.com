@@ -68,6 +68,9 @@
 
 		扫描完成之后结果会保存为result.csv文件，使用记事本或者excel打开查看
 
+		./hm deepscan 你的web目录 
+		扫描时开启深度解码
+
 	4.4 升级
 
 		./hm update	

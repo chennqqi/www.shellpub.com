@@ -1,21 +1,21 @@
 {
-    "version": "1.7.1",
+    "version": "1.8.0",
     "name": "hm",
     "description": "hm -a magic webshell scanner",
     "linux-386": {
-        "url": "http://dl.shellpub.com/hm/1.7.1/hm-linux-386.tgz",
-				"md5": "0bc43099b2eb2dae2379c60f4813b817",
-				"sha1": "6dece0f2986c9d0d2686587ac88747ae955d5d3c"
+        "url": "http://dl.shellpub.com/hm/1.8.0/hm-linux-386.tgz",
+				"md5": "5c7b823a4b41f37b88134de6de8a08d7",
+				"sha1": "6c5c69cdd57d4cf8d4d7801fde51d46efa91dde7"
     },
     "windows-386": {
-			"url" : "http://dl.shellpub.com/hm-ui/1.7.1/HmSetup.zip",
-			"md5" : "e0da0d5f712ac4696bbcaa97be858b9e",
-			"sha1" : "e41ffad2b8140660e6ba881594575b091f44966b"
+			"url" : "http://dl.shellpub.com/hm-ui/1.8.0/HmSetup.zip",
+			"md5" : "80d679d4c600f8e3efedfad576a9b734",
+			"sha1" : "32504cab283b3b5fa42d89cec1aafbcb778a65db"
     },
     "linux-amd64": {
-        "url" : "http://dl.shellpub.com/hm/1.7.1/hm-linux-amd64.tgz",
-				"md5": "9b81798df063f1d60dde0153ffbc80aa",
-				"sha1": "9d317e5150515e54a76520021ee8dc7629c3b319"
+        "url" : "http://dl.shellpub.com/hm/1.8.0/hm-linux-amd64.tgz",
+				"md5": "554787f486aa5576dfa6a6fe18c83ac0",
+				"sha1": "40313f1157480c91dfd111b1b1d13dd19ef54d35"
     },
-    "releasenote": "1.7.1"
+    "releasenote": "1.8.0"
 }
